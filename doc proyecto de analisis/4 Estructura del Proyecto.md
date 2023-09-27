@@ -79,7 +79,7 @@ const productSchema = new mongoose.Schema({
 module.exports = mongoose.model('Product', productSchema);
 ```
 
-**Paso 5:** Inicializar servidor node:
+**Paso 2:** Instalar las dependencias necesarias:
 
 ```bash
 node app.js
