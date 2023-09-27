@@ -78,10 +78,22 @@ const productSchema = new mongoose.Schema({
 module.exports = mongoose.model('Product', productSchema);
 ```
 
-**Paso 2:** Instalar las dependencias necesarias:
+**Paso 5:** Inicializar servidor node:
 
 ```bash
 node app.js
+```
+
+**Paso 6:** Instalar dependencia de nodemon:
+
+```bash
+npm install -g nodemon
+```
+
+**Paso 6:** ejecutar el servicio con nodemon:
+
+```bash
+nodemon app.js
 ```
 
 ### Esquema de Análisis Ideal:
