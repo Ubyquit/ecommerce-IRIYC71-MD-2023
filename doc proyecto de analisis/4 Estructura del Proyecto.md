@@ -1,3 +1,4 @@
+# Crear primero la estructura de las carpetas.
 
 ```plaintext
 /ecommerce-realtime-analytics
