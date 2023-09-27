@@ -78,6 +78,12 @@ const productSchema = new mongoose.Schema({
 module.exports = mongoose.model('Product', productSchema);
 ```
 
+**Paso 2:** Instalar las dependencias necesarias:
+
+```bash
+node app.js
+```
+
 ### Esquema de Análisis Ideal:
 
 1. **Eventos de Usuario:** 
