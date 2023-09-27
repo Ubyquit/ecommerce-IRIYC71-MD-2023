@@ -79,7 +79,7 @@ const productSchema = new mongoose.Schema({
 module.exports = mongoose.model('Product', productSchema);
 ```
 
-**Paso 2:** Iniciar el servicio:
+**Paso 5:** Iniciar el servicio:
 
 ```bash
 node app.js
